@@ -1,0 +1,45 @@
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px auto;
+    font-size: 50px;
+}
+
+.container {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.button {
+    height: 200px;
+    width: 200px;
+    border: 4px solid black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#red {
+    background-color: red;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#green {
+    background-color: green;
+}
+
+#random {
+    background-color: rgb(182, 171, 171);
+}
