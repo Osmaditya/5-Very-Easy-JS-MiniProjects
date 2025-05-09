@@ -1,0 +1,60 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #16c7ac, #b75d19, #3a06e5, #75d311, #072641);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.title{
+    font-weight: bolder;
+   text-align: center;
+   justify-content: center;
+   text-decoration: underline;
+}
+
+button{
+    padding: 15px 35px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 3px black;
+    background-color: aqua;
+    font-weight: bolder;
+    margin-left: 30px;
+}
+
+input{
+    padding: 10px 30px;
+    margin-top: 50px;
+    margin-left:  580px;
+    font-size: medium;
+    font-weight: bolder;
+    box-shadow: 3px 3px 3px black;
+
+}
+
+ul>li{
+
+    font-size: x-large;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 590px;
+    list-style-type: square;
+    color: white;
+    
+}
+
+.del{
+    background-color: red;
+    color: white;
+}
